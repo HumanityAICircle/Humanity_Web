@@ -1,0 +1,17 @@
+
+/* V19.4 global humanity — additive styles only */
+.hac-global-photo { margin:1.25rem 0 2rem; max-width:100%; }
+.hac-global-photo img { display:block; width:100%; max-height:560px; aspect-ratio:16/8; object-fit:cover; border:3px solid #203a2e; border-radius:24px; box-shadow:9px 9px 0 #2d5542; }
+.hac-voices { margin:2rem 0; padding:clamp(1.25rem,3vw,2.4rem); border:3px solid #203a2e; border-radius:25px; background:#fff7e9; box-shadow:8px 8px 0 #2d5542; }
+.hac-voices h2 { margin:.35rem 0 1rem; font-size:clamp(1.65rem,3vw,2.6rem); line-height:1.12; color:#17382b; }
+.hac-voices .voices-intro {max-width:65ch;}
+.hac-voices-grid {display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-top:1.3rem;}
+.hac-voice {padding:1.3rem; border:2px solid #284434; border-radius:19px; background:#e7f2e6;}
+.hac-voice:nth-child(2){background:#f0e7fa}.hac-voice:nth-child(3){background:#fff0c8}
+.hac-voice .voice-icon{font-size:1.6rem; display:block; margin-bottom:.7rem}
+.hac-voice h3{margin:.1rem 0 .65rem; color:#17382b; font-size:1.13rem}
+.hac-voice p{margin:.5rem 0; line-height:1.55; color:#233d34}
+.hac-voice small{display:block; color:#435b50; font-weight:650; margin-top:.8rem}
+.hac-simulation-note{font-size:.9rem; border-left:4px solid #325d49; padding:.6rem .8rem; background:#f8f6ee; margin:1rem 0!important; color:#29493a}
+@media(max-width:850px){.hac-voices-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.hac-voices-grid{grid-template-columns:1fr}.hac-global-photo img{aspect-ratio:4/3;border-radius:18px;box-shadow:5px 5px 0 #2d5542}}

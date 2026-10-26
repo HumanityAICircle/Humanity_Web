@@ -1,0 +1,7 @@
+
+/* V19.3 editorial thematic imagery: local assets, no third-party requests */
+.hac-theme-photo{margin:clamp(1.15rem,2.6vw,2.2rem) 0 clamp(1.5rem,3vw,2.5rem);max-width:100%;}
+.hac-theme-photo img{display:block;width:100%;aspect-ratio:16/7;object-fit:cover;object-position:center 48%;border:3px solid #203a2e;border-radius:25px;box-shadow:10px 10px 0 #2d5542;}
+.hac-theme-photo[data-mode="portrait"]{max-width:740px;}
+.hac-theme-photo[data-mode="portrait"] img{aspect-ratio:16/9;}
+@media(max-width:680px){.hac-theme-photo{margin:1.3rem 0 2rem}.hac-theme-photo img,.hac-theme-photo[data-mode="portrait"] img{aspect-ratio:4/3;border-radius:19px;box-shadow:6px 6px 0 #2d5542;}}
